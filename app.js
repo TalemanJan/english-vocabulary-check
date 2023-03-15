@@ -56,6 +56,7 @@ let next = () => {
     document.getElementById("next-btn").remove();
     document.getElementById("try-agn").style.visibility="visible";
     document.getElementById("try-agn").innerHTML="Try again"
+    
 
   }
 
@@ -84,14 +85,23 @@ function checkkk(){
     document.getElementById("aaaa").innerHTML = "Correct it: They're going to the party too.";
      document.getElementById("ans-btn").onclick=checkkk;
      document.getElementById("next-btn").onclick=next;
-     
+     let confirmm=confirm("Are you sure you want to move to the nest question")
+     if(confirmm==true){
+nextt()
+
+     }
+else{
+document.write("try")
+
+}
+
   }
   
 
   let tryagain=()=>{
 
 
-    
+
 
 
 
