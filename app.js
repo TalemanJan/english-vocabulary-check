@@ -48,10 +48,10 @@ function checkk(){
 let next = () => {
     document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
     document.getElementById("ans-btn").onclick = checkk;
-    document.getElementById("next-btn").innerHTML="Ans this again"
+    document.getElementById("next-btn").innerHTML=" "
     const button = document.createElement("button"); 
     button.innerText = "Answer Again"; 
-
+   
   }
 
 function checkkk(){
