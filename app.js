@@ -55,6 +55,7 @@ let next = () => {
     document.getElementById("ans-btn").onclick = checkk;
     document.getElementById("next-btn").remove();
     document.getElementById("try-agn").style.visibility="visible";
+    document.getElementById("try-agn").innerHTML="Try again"
 
   }
 
@@ -72,7 +73,7 @@ function checkkk(){
         break;
 
    default:
-        document.getElementById("aaaa").innerHTML="The answer is wrong " +" "+"here are some of the correct ways to write it :"+"<br>"+"1:"+" "+q2[0]+"<br>"+"2:"+" "+q2[1]+"<br>"+q2[2]; //could been done with creating an li 
+        document.getElementById("aaaa").innerHTML="The answer is wrong " +" "+"here are some of the correct ways to write it :"+"<br>"+"1:"+" "+q2[0]+"<br>"+"2:"+" "+q2[1]+"<br>"+" 3: "+q2[2]; //could been done with creating an li 
         break;
     } 
 
