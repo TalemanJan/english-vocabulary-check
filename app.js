@@ -14,7 +14,7 @@ function check(){
         document.getElementById("aa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she own a car?";
         break;
       default:
-        document.getElementById("aa").innerHTML="That's wrong" +" "+"here are the correct answers:"+"<br>"+q1[0];
+        document.getElementById("aa").innerHTML="That's wrong" +" "+"here are the correct answers:"+"<br>"+q1[0]+"<br>"+q1[1]; //could been done with creating an li 
         break;
     } 
   }
