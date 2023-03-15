@@ -63,7 +63,7 @@ function checkkk(){
         break;
 
    default:
-        document.getElementById("aaaa").innerHTML="The answer is wrong " +" "+"here are some of the correct ways to write it :"+"<br>"+"1:"+" "+q3[0]+"<br>"+"2:"+" "+q3[1]+"<br>"+" 3: "+q2[2]; //could been done with creating an li 
+        document.getElementById("aaaa").innerHTML="The answer is wrong " +" "+"here are some of the correct ways to write it :"+"<br>"+"1:"+" "+q3[0]+"<br>"+"2:"+" "+q3[1]+"<br>"+" 3: "+q3[2]; //could been done with creating an li 
         break;
     } 
 
