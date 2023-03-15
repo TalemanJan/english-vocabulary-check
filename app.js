@@ -49,9 +49,7 @@ let next = () => {
     document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
     document.getElementById("ans-btn").onclick = checkk;
     document.getElementById("next-btn").remove();
-    const button = document.createElement("button"); 
-    button.innerText = "Answer Again"; 
-   
+
   }
 
 function checkkk(){
