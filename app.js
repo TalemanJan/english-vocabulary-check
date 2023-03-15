@@ -87,13 +87,13 @@ function checkkk(){
      document.getElementById("next-btn").onclick=next;
      let confirmm=confirm("Are you sure you want to move to the nest question")
      if(confirmm==true){
-nextt()
+nextt();
 
      }
 else{
-document.getElementById("aaaa").innerHTML=" "
+document.getElementById("aaaa").innerHTML=" ";
 document.getElementById("ans-btn").onclick=check;
-document.getElementById("next-btn").onclick=nexttt
+document.getElementById("next-btn").onclick=nexttt;
 
 
 }
