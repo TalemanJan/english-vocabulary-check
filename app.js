@@ -19,7 +19,7 @@ document.getElementById("aa").innerHTML="please give an answer "
 break;
 
    default:
-        document.getElementById("aa").innerHTML="The answer is wrong " +" "+"here are some of the correct ways to write it :"+"<br>"+q1[0]+"<br>"+q1[1]+"<br>"+q1[2]; //could been done with creating an li 
+        document.getElementById("aa").innerHTML="The answer is wrong " +" "+"here are some of the correct ways to write it :"+"<br>"+ "1:"+" " +q1[0]+"<br>"+2+q1[1]+"<br>"+q1[2]; //could been done with creating an li 
         break;
     } 
   }
