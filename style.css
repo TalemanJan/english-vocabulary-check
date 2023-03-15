@@ -22,4 +22,5 @@ input[type="text"]{
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px;
 }
