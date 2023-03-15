@@ -82,6 +82,7 @@ body{
   /* Styling the try again button */
 #try-agn {
     padding: 10px 20px;
+    border: none;
 
   }
   
