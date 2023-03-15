@@ -12,6 +12,11 @@ function check(){
       case "Does she own a car?":
         document.getElementById("aa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she own a car?";
         break;
+        case "" :
+document.getElementById("aa").innerHTML="please "
+
+
+break;
 
    default:
         document.getElementById("aa").innerHTML="The answer is wrong " +" "+"here are some of the correct ways to write it :"+"<br>"+q1[0]+"<br>"+q1[1]+"<br>"+q1[2]; //could been done with creating an li 
