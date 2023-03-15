@@ -30,7 +30,7 @@ function checkk(){
     var inp_1 = document.getElementById("inp-1").value;
     switch (inp_1) {
       case "He and I went to the store.":
-        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"He and I went to the store"+"]";          
+        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"They're going to the party as well."+"]";          
         break;
       case "Him and I went to the store.":
         document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Him and I went to the store";
