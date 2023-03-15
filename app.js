@@ -71,7 +71,7 @@ function checkkk(){
 
 let next = () => {
     document.getElementById("aaaa").innerHTML = "Correct it: Me and him went to the store";
-    document.getElementById("ans-btn").onclick = checkk;
+    document.getElementById("ans-btn").onclick = checkkk;
     document.getElementById("next-btn").remove();
     document.getElementById("try-agn").style.visibility="visible";
     document.getElementById("try-agn").innerHTML="Try again"
@@ -83,21 +83,21 @@ let next = () => {
   let nexttt = () => {
 
     document.getElementById("aaa").innerHTML = "Correct it: They're going to the party too.";
-     document.getElementById("ans-btn").onclick=checkkk;
+     document.getElementById("ans-btn").onclick=checkk;
      document.getElementById("next-btn").onclick=next;
-     let confirmm=confirm("Are you sure you want to move to the next question")
-     if(confirmm==true){
-check()
-document.getElementById("ans-btn").onclick=checkkk;
+    //  let confirmm=confirm("Are you sure you want to move to the next question")
+//      if(confirmm==true){
+// check()
+// document.getElementById("ans-btn").onclick=checkkk;
 
-     }
-else{
-document.getElementById("aaa").innerHTML=" ";
-document.getElementById("ans-btn").onclick=check;
-document.getElementById("next-btn").onclick=nexttt;
+//      }
+// else{
+// document.getElementById("aaa").innerHTML=" ";
+// document.getElementById("ans-btn").onclick=check;
+// document.getElementById("next-btn").onclick=nexttt;
 
 
-}
+// }
 
   }
   
