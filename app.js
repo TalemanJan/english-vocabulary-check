@@ -44,7 +44,6 @@ function checkk(){
 
 
 
-document.getElementById("aaa").innerHTML=" "
 
 let next = () => {
     document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
