@@ -75,7 +75,7 @@ function checkkk(){
 }
 
   let nexttt = () => {
-  var abc="hello"
+
     document.getElementById("aaaa").innerHTML = "Correct it: They're going to the party too.";
      document.getElementById("ans-btn").onclick=checkkk;
      document.getElementById("next-btn").onclick=next;
