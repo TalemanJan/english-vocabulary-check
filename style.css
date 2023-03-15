@@ -44,5 +44,6 @@ body{
   /* Styling the answer button */
 
 #ans-btn {
-  
+    padding: 10px 20px;
+   
   }
