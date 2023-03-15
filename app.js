@@ -46,11 +46,22 @@ function checkk(){
 
 document.getElementById("aaa").innerHTML=" "
 
-  let next=()=> {
-
-document.getElementById("aaa").innerHTML="Correct it::  Me and him went to the store"
-document.getElementById("ans-btn").onclick=checkk;
-
+let next = () => {
+    document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
+    document.getElementById("ans-btn").onclick = checkk;
+  }
+  
+  let nexttt = () => {
+    document.getElementById("aaa").innerHTML = "Correct it: They're going to the party too.";
+    document.getElementById("next-btn").onclick = next;
+    document.getElementById("ans-btn").onclick=checkkk;
+  }
+  
+  
+  
+  function nextt() {
+    document.getElementById("aaa").innerHTML = "Correct it: They're going to the party too.";
+    document.getElementById("next-btn").onclick = nexttt;
   }
   
 
