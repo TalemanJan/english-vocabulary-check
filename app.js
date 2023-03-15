@@ -52,13 +52,13 @@ function checkkk(){
     var inp_1 = document.getElementById("inp-1").value;
     switch (inp_1) {
       case "He and I went to the store.":
-        document.getElementById("aaaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Is she in possession of a car?"+"]";          
+        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Is she in possession of a car?"+"]";          
         break;
       case "Him and I went to the store.":
-        document.getElementById("aaaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she have a car?";
+        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she have a car?";
         break;
       case "He went to the store with me.":
-        document.getElementById("aaaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she own a car?";
+        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she own a car?";
         break;
 
    default:
@@ -70,7 +70,7 @@ function checkkk(){
 
 
 let next = () => {
-    document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
+    document.getElementById("aaaa").innerHTML = "Correct it: Me and him went to the store";
     document.getElementById("ans-btn").onclick = check;
     document.getElementById("next-btn").remove();
     document.getElementById("try-agn").style.visibility="visible";
@@ -82,7 +82,7 @@ let next = () => {
 
   let nexttt = () => {
 
-    document.getElementById("aaaa").innerHTML = "Correct it: They're going to the party too.";
+    document.getElementById("aaa").innerHTML = "Correct it: They're going to the party too.";
      document.getElementById("ans-btn").onclick=checkkk;
      document.getElementById("next-btn").onclick=next;
      let confirmm=confirm("Are you sure you want to move to the next question")
