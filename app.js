@@ -36,7 +36,7 @@ function checkk(){
         document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"They are also going to the party.";
         break;
       case "He went to the store with me.":
-        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"He went to the store with me";
+        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"They are going to the party, too.";
         break;
 
    default:
