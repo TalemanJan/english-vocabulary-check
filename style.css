@@ -69,7 +69,7 @@ body{
     background-color: #4a47a3;
     color: white;
     cursor: pointer;
-
+    transition: all 0.2s ease;
   }
   
  
