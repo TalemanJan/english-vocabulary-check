@@ -86,7 +86,8 @@ body{
     border-radius: 5px;
     background-color: #d62828;
     color: white;
-  
+    cursor: pointer;
+
   }
   
  
