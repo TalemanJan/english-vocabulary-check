@@ -87,7 +87,7 @@ let next = () => {
      document.getElementById("next-btn").onclick=next;
      let confirmm=confirm("Are you sure you want to move to the next question")
      if(confirmm==true){
-check()
+
 document.getElementById("ans-btn").onclick=checkkk;
 
      }
