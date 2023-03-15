@@ -92,7 +92,7 @@ document.getElementById("ans-btn").onclick=checkkk;
 
      }
 else{
-document.getElementById("aaaa").innerHTML=" ";
+document.getElementById("aaa").innerHTML=" ";
 document.getElementById("ans-btn").onclick=check;
 document.getElementById("next-btn").onclick=nexttt;
 
