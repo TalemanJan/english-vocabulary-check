@@ -13,7 +13,7 @@ function check(){
         document.getElementById("aa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she own a car?";
         break;
         case "" :
-document.getElementById("aa").innerHTML="please "
+document.getElementById("aa").innerHTML="please give an answer "
 
 
 break;
