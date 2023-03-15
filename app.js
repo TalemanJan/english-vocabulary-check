@@ -59,10 +59,6 @@ let next = () => {
   
   
   
-  function nextt() {
-    document.getElementById("aaa").innerHTML = "Correct it: They're going to the party too.";
-    document.getElementById("next-btn").onclick = nexttt;
-  }
-  
+
 
   
