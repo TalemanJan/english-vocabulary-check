@@ -30,7 +30,7 @@ function checkk(){
     var inp_1 = document.getElementById("inp-1").value;
     switch (inp_1) {
       case "He and I went to the store.":
-        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Is she in possession of a car?"+"]";          
+        document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"He and I went to the store"+"]";          
         break;
       case "Him and I went to the store.":
         document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"Does she have a car?";
@@ -71,7 +71,7 @@ function checkkk(){
 
 let next = () => {
     document.getElementById("aaaa").innerHTML = "Correct it: Me and him went to the store";
-    document.getElementById("ans-btn").onclick = check;
+    document.getElementById("ans-btn").onclick = checkk;
     document.getElementById("next-btn").remove();
     document.getElementById("try-agn").style.visibility="visible";
     document.getElementById("try-agn").innerHTML="Try again"
@@ -87,7 +87,7 @@ let next = () => {
      document.getElementById("next-btn").onclick=next;
      let confirmm=confirm("Are you sure you want to move to the next question")
      if(confirmm==true){
-next();
+check()
 document.getElementById("ans-btn").onclick=checkkk;
 
      }
