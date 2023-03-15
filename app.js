@@ -1,5 +1,6 @@
 var q1=["Does she own a car?","Does she have a car?","Is she in possession of a car?"]
 var q2=["He and I went to the store.","Him and I went to the store.","He went to the store with me."]
+var q3=[]
 function check(){
     var inp_1 = document.getElementById("inp-1").value;
     switch (inp_1) {
@@ -47,19 +48,6 @@ function checkk(){
 
 }
 
-
-
-
-let next = () => {
-    document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
-    document.getElementById("ans-btn").onclick = checkk;
-    document.getElementById("next-btn").remove();
-    document.getElementById("try-agn").style.visibility="visible";
-    document.getElementById("try-agn").innerHTML="Try again"
-    
-
-  }
-
 function checkkk(){
     var inp_1 = document.getElementById("inp-1").value;
     switch (inp_1) {
@@ -79,6 +67,18 @@ function checkkk(){
     } 
 
 }
+
+
+let next = () => {
+    document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
+    document.getElementById("ans-btn").onclick = check;
+    document.getElementById("next-btn").remove();
+    document.getElementById("try-agn").style.visibility="visible";
+    document.getElementById("try-agn").innerHTML="Try again"
+    
+
+  }
+
 
   let nexttt = () => {
 
