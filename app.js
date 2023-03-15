@@ -23,7 +23,7 @@ break;
 
 
       default:
-        document.getElementById("aa").innerHTML="The answer is wrong " +" "+"here are the correct answers:"+"<br>"+q1[0]+"<br>"+q1[1]+"<br>"+q1[2]; //could been done with creating an li 
+        document.getElementById("aa").innerHTML="The answer is wrong " +" "+"here are some of the ways to write it :"+"<br>"+q1[0]+"<br>"+q1[1]+"<br>"+q1[2]; //could been done with creating an li 
         break;
     } 
   }
