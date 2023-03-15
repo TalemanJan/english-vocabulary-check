@@ -91,7 +91,8 @@ nextt()
 
      }
 else{
-document.getElementById("aaaa").innerHTML="hahah"
+document.getElementById("aaaa").innerHTML=" "
+document.getElementById("ans-btn").onclick=check;
 
 
 }
