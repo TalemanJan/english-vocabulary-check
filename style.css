@@ -50,5 +50,5 @@ body{
     background-color: #23c160;
     color: white;
     cursor: pointer;
-
+    transition: all 0.2s ease;
   }
