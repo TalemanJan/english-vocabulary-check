@@ -1,6 +1,7 @@
 var q1=["Does she own a car?","Does she have a car?","Is she in possession of a car?"]
-var q2=["He and I went to the store.","Him and I went to the store.","He went to the store with me."]
-var q3=[]
+var q2=["They're going to the party as well.","They are also going to the party.","They are going to the party, too."]
+var q3=["He and I went to the store.","Him and I went to the store.","He went to the store with me."]
+
 function check(){
     var inp_1 = document.getElementById("inp-1").value;
     switch (inp_1) {
