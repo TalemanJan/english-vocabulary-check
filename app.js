@@ -91,7 +91,8 @@ nextt()
 
      }
 else{
-document.write("try")
+document.getElementById("aaaa").innerHTML="hahah"
+
 
 }
 
