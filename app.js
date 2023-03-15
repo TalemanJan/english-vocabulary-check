@@ -87,7 +87,8 @@ function checkkk(){
      document.getElementById("next-btn").onclick=next;
      let confirmm=confirm("Are you sure you want to move to the next question")
      if(confirmm==true){
-nextt();
+next();
+document.getElementById("ans-btn").onclick=checkkk;
 
      }
 else{
