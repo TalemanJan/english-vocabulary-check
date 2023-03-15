@@ -85,7 +85,7 @@ function checkkk(){
     document.getElementById("aaaa").innerHTML = "Correct it: They're going to the party too.";
      document.getElementById("ans-btn").onclick=checkkk;
      document.getElementById("next-btn").onclick=next;
-     let confirmm=confirm("Are you sure you want to move to the nest question")
+     let confirmm=confirm("Are you sure you want to move to the next question")
      if(confirmm==true){
 nextt();
 
