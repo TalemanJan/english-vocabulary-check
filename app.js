@@ -16,7 +16,7 @@ function check(){
         break;
 
 case "He and I went to the store.":
-    document.getElementById("aa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"He and I went to the store.";
+    document.getElementById("aaa").innerHTML = "Excellent work thats the correct answer"+" "+"[" +"He and I went to the store.";
 
 break;
 
@@ -31,8 +31,8 @@ break;
 document.getElementById("aaa").innerHTML=" "
 
   let next=()=> {
-document.getElementById("aa").innerHTML=" "
-document.getElementById("aaa").innerHTML="hello"
+// document.getElementById("aa").innerHTML=" "
+document.getElementById("aaa").innerHTML="Correct it::  Me and him went to the store"
 
 
   }
