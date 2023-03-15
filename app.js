@@ -48,7 +48,7 @@ function checkk(){
 let next = () => {
     document.getElementById("aaa").innerHTML = "Correct it: Me and him went to the store";
     document.getElementById("ans-btn").onclick = checkk;
-    document.getElementById("ans-btn").innerHTML="Previous"
+    document.getElementById("next-btn").innerHTML="Previous"
   }
 
 function checkkk(){
