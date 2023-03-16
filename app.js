@@ -107,7 +107,9 @@ document.getElementById("next-btn").onclick=nexttt;
 
  document.getElementById("aaa").innerHTML=""   
  document.getElementById("aaaa").innerHTML=""
-
+document.getElementById("ans-btn").onclick=check;
+document.getElementById("try-agn").innerHTML="Next"
+document.getElementById("try-agn").onclick=nexttt;
 
   }
   
