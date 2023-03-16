@@ -85,7 +85,7 @@ let next = () => {
 
     document.getElementById("aaa").innerHTML = "Correct it: They're going to the party too.";
      document.getElementById("ans-btn").onclick=checkk;
-     document.getElementById("next-btn").onclick=next;
+     var g=document.getElementById("next-btn").onclick=next;
      let confirmm=confirm("Are you sure you want to move to the next question")
      if(confirmm==true){
 
@@ -104,6 +104,9 @@ document.getElementById("next-btn").onclick=nexttt;
   
 
   let tryagain=()=>{
+
+ document.getElementById("aaa").innerHTML=""   
+
 
   }
   
