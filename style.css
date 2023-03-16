@@ -53,9 +53,10 @@ h1{
 
 #ans-btn {
     padding: 10px 20px;
-    border: none;
+    border: 1px solid white;
     border-radius: 5px;
     background-color: #000000;
+
     color: white;
     cursor: pointer;
     transition: all 0.2s ease;
