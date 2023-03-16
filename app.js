@@ -106,6 +106,7 @@ document.getElementById("next-btn").onclick=nexttt;
   let tryagain=()=>{
 
  document.getElementById("aaa").innerHTML=""   
+ document.getElementById("aaaa").innerHTML=""
 
 
   }
