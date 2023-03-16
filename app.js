@@ -105,12 +105,6 @@ document.getElementById("next-btn").onclick=nexttt;
 
   let tryagain=()=>{
 
-
-
-
-
-
-
   }
   
   
